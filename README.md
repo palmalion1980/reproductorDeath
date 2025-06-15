@@ -12,13 +12,6 @@ Este proyecto es un reproductor de música construido con HTML, CSS y JavaScript
 - 🌊 Visualización de forma de onda de audio usando WaveSurfer.js.
 - 🎧 Estética visual basada en *Death Note* (recomendado complementar con imágenes/fuentes).
 
----
-
-## 🖼️ Vista previa sugerida
-
-> *(Agrega una imagen aquí de tu reproductor funcionando)*
-
----
 
 ## 📁 Estructura del proyecto
 
