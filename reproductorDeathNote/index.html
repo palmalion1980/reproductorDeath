@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Reproductor Death Note</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+</head>
+<body>
+    <div id="player">
+        <h1>🎧 Death Note Music Player</h1>
+        <p id="descripcion">🎧"Disfruta de tu música favorita mientras usas tu reproductor y skin preferido"🎶🔊</p>
+
+        <button id="themeToggle">🌙 Cambiar tema</button>
+
+        <div class="upload">
+            <input type="file" id="fileInput" accept="audio/*" />
+            <label for="fileInput">📤 Subir Música</label>
+        </div>
+
+        <div id="waveform"></div>
+
+        <div class="controls">
+            <button id="prevBtn">⏮️</button>
+            <button id="playPauseBtn">▶️</button>
+            <button id="nextBtn">⏭️</button>
+        </div>
+
+        <input type="text" id="searchInput" placeholder="🔍 Buscar canción...">
+
+        <ul id="playlist"></ul>
+    </div>
+
+    <footer>
+        <p>Death Note Music Player - Inspirado por la oscuridad de Kira 🎼</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+  
+
+
+
+
